@@ -1,0 +1,167 @@
+.logo{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.left{
+    float: left;
+    margin-left: -2rem;
+}
+
+.right{
+    text-align: right;
+    float: right;
+    margin-right: -8px;
+}
+
+.header, h1{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 50px;
+    line-height: 1.1;
+    color: #2D2B44;
+    margin-bottom: -1px;
+}
+
+.header, p{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #ACADB2;
+}
+
+.button{
+    text-align: center;
+}
+
+header{
+    margin-top: 5rem;
+}
+
+.button .b1{
+    padding: 15px 22px 15px 22px;
+    border-style: none;
+    border-radius: 99px;
+    background-color: #4B97A6;
+}
+
+
+.button .b2{
+    padding: 15px 22px 15px 22px;
+    border-style: none;
+    border-radius: 99px;
+    background-color: #855FB2;
+}
+
+.button :hover{
+    background-color: #2D2B44;
+    cursor: pointer;
+}
+
+.t1{
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+}
+
+.t2{
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+}
+
+.t1 span{
+    color: #8FE0F2;
+}
+
+.button{
+    word-spacing: 7px;
+    margin-top: 2rem;
+}
+
+.rec{
+    background-color: #ACADB2;
+    padding: 6px 0.5px 6px 0.5px;
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+}
+
+.pics{
+    text-align: center;
+    word-spacing: 11px;
+    margin-top: -5rem;
+    border-radius: 30px;
+}
+
+.img1{;
+    border-radius: 15px;
+}
+
+.img2{;
+    border-radius: 15px;
+}
+
+.img3{;
+    border-radius: 15px;
+}
+
+.img4{;
+    border-radius: 15px;
+}
+
+#pr{
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+h4{
+    font-family: 'Dongle', sans-serif;
+    letter-spacing: 5px;
+    font-size: 24px;
+    text-align: center;
+    color: #6F959E;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.pics :hover{
+    box-shadow: 5px 5px 5px 5px rgb(204, 204, 204);
+    cursor: pointer;
+    border: solid 3px white;
+}
+
+/* media queries */
+
+@media (max-width : 500px) and (min-width : 0px) {
+    body{
+        align-content: center;
+    }
+
+    .img-1 {
+        display: none;
+    }
+}
+
+@media (max-width : 1075px) and (min-width : 500px) {
+
+    body{
+        justify-content: center;
+    }
+
+    .img-1{
+        display: none;
+    }
+
+    .sec1{
+        padding: 2rem;
+        background-color: rgb(238, 238, 238);
+        background-image: url("image-hero-left.png");
+        background-blend-mode: screen;
+        border-radius: 3rem;
+        margin-top: -2rem;
+        
+    }
+}
