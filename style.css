@@ -93,19 +93,19 @@ header{
     border-radius: 30px;
 }
 
-.img1{;
+.img1{
     border-radius: 15px;
 }
 
-.img2{;
+.img2{
     border-radius: 15px;
 }
 
-.img3{;
+.img3{
     border-radius: 15px;
 }
 
-.img4{;
+.img4{
     border-radius: 15px;
 }
 
@@ -127,7 +127,7 @@ a{
     color: white;
 }
 
-.pics:hover{
+.pics img:hover{
     box-shadow: 5px 5px 5px 5px rgb(204, 204, 204);
     cursor: pointer;
     border: solid 3px white;
