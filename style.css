@@ -14,7 +14,7 @@
     margin-right: -8px;
 }
 
-.header, h1{
+.header h1{
     text-align: center;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 50px;
@@ -23,7 +23,7 @@
     margin-bottom: -1px;
 }
 
-.header, p{
+.header p{
     text-align: center;
     font-family: 'Red Hat Display', sans-serif;
     color: #ACADB2;
@@ -127,7 +127,7 @@ a{
     color: white;
 }
 
-.pics :hover{
+.pics:hover{
     box-shadow: 5px 5px 5px 5px rgb(204, 204, 204);
     cursor: pointer;
     border: solid 3px white;
@@ -135,7 +135,7 @@ a{
 
 /* media queries */
 
-@media (max-width : 500px) and (min-width : 0px) {
+@media (max-width : 500px) and (min-width : 375px) {
     body{
         align-content: center;
     }
@@ -143,9 +143,13 @@ a{
     .img-1 {
         display: none;
     }
+
+    header .sec1{
+        background-image: none;
+    }
 }
 
-@media (max-width : 1075px) and (min-width : 500px) {
+@media (max-width : 1075px) and (min-width : 501px) {
 
     body{
         justify-content: center;
